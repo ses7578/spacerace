@@ -7,7 +7,7 @@ function Home() {
     let history = useHistory();
 
     function clickInfo() {
-        history.push("/info");
+        history.push("/intro");
     }
 
     return (

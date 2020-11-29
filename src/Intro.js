@@ -14,17 +14,19 @@ function Intro() {
         history.push("/timeline60");
     }
     function click70() {
-        history.push("/timeline60");
+        history.push("/timeline70");
     }
 
     return (
         <div className="page">
-            <header className="App-header">
-                <p>
-                    The Space Race occurred from the 1950s to the 1970s
-                    The main involved parties was the USSR and the US
-                </p>
-            </header>
+            <p className="Information">
+                The Space Race occurred from the 1950s to the 1970s
+                The main involved parties was the USSR and the US.
+
+                While it is hard to determine a hard start and end date, I have decided to go with 1957 for a start
+                as that is when the USSR launched Sputnik into space which is what started the process of both America
+                and the USSR racing to get into space.
+            </p>
             <p/>
             <button onClick = {click50}>1950s information</button>
             <p/>

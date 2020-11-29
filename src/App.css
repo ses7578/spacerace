@@ -1,6 +1,7 @@
 .page {
   text-align: center;
   background-color: #282c34;
+  overflow: auto;
 }
 
 .center {
@@ -13,7 +14,7 @@
 
 body {
   font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
-  color: #222;
+  color: white;
   background-color: #282c34;
   padding: 0px;
 }
@@ -38,3 +39,36 @@ body {
   color: #61dafb;
 }
 
+.Title{
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+}
+
+.Information {
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.year {
+  font-size: 22px;
+  color: #61dafb;
+}
+
+button.year {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  font-family: arial, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+  font-size: 22px;
+}
+
+.year:hover {
+  color: #333;
+}
