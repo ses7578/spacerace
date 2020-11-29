@@ -1,22 +1,23 @@
-import logo from './logo.svg';
+import logo from './spaceRaceLogo.jpg';
 import { useHistory } from "react-router";
 import './App.css';
+import React from "react";
 
 function Home() {
     let history = useHistory();
 
-    function clickFile() {
-        history.push("/test");
+    function clickInfo() {
+        history.push("/info");
     }
 
     return (
-        <div className="App">
+        <div className="page">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
                     This is the home page
                 </p>
-                <button onClick = {clickFile}>Go to Test File</button>
+                <button onClick = {clickInfo}>Click To Enter</button>
             </header>
         </div>
     );
