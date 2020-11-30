@@ -16,6 +16,9 @@ function Intro() {
     function click70() {
         history.push("/timeline70");
     }
+    function clickMissions() {
+        history.push("/missions");
+    }
 
     return (
         <div className="page">
@@ -33,6 +36,8 @@ function Intro() {
             <button onClick = {click60}>1960s information</button>
             <p/>
             <button onClick = {click70}>1970s information</button>
+            <p/>
+            <button onClick = {clickMissions}>Space Missions</button>
         </div>
     );
 }

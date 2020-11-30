@@ -13,7 +13,7 @@
 }
 
 body {
-  font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
+  font: 12px/26px 'Bungee', Helvetica, Arial, sans-serif;
   color: white;
   background-color: #282c34;
   padding: 0px;
@@ -50,12 +50,15 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
+  margin: 0 25% 1%;
 }
 
 .year {
   font-size: 22px;
   color: #61dafb;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 button.year {
@@ -72,3 +75,72 @@ button.year {
 .year:hover {
   color: #333;
 }
+
+.reference {
+  font-size: 10px;
+  color: #61dafb;
+}
+
+button.reference {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  font-family: arial, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+
+.reference:hover {
+  color: #333;
+}
+
+.text-container {
+  padding: 1%;
+  font-size: 16px;
+  margin: 0 25% 1%;
+}
+
+.mission {
+  font-size: 16px;
+  color: #61dafb;
+}
+
+button.mission {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  font-family: arial, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.mission:hover {
+  color: #333;
+}
+
+.link {
+  font-size: 16px;
+  color: #61dafb;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+button.link {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  font-family: arial, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.link:hover {
+  color: #333;
+}
+

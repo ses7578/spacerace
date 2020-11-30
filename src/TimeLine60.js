@@ -12,27 +12,21 @@ function Time60() {
     return (
         <div className="page">
             <a href={"#1960"} className="year">1960</a>
-            <label>   </label>
             <a href={"#1961"} className="year">1961</a>
-            <label>   </label>
             <a href={"#1962"} className="year">1962</a>
-            <label>   </label>
             <a href={"#1963"} className="year">1963</a>
-            <label>   </label>
             <a href={"#1964"} className="year">1964</a>
-            <label>   </label>
             <a href={"#1965"} className="year">1965</a>
-            <label>   </label>
             <a href={"#1966"} className="year">1966</a>
-            <label>   </label>
             <a href={"#1967"} className="year">1967</a>
-            <label>   </label>
             <a href={"#1968"} className="year">1968</a>
-            <label>   </label>
             <a href={"#1969"} className="year">1969</a>
-            <header className="App-header" id={"1960"}>1960</header>
-            <p>
-                Sputnik was launched
+            <p/>
+            <p className="Title" id={"1960"}>1960</p>
+            <p className={"Information"}>
+                <a href={"/missions#Sputnik"} className={"mission"}>Sputnik 5</a> was launched on August 19, 1960 by the
+                USSR. This was the first mission that was launched into space<sup><a href={"#1"} className={"reference"}>1</a></sup>
+                carrying animals that were returned successfully
             </p>
             <header className="App-header" id={"1961"}>1961</header>
             <p>
@@ -71,6 +65,13 @@ function Time60() {
                 Sputnik was launched
             </p>
             <button onClick = {clickBack}>Go Back</button>
+            <a
+                href={"https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1960-011A"}
+                className={"link"}
+                id={"1"}
+                target={"blank"}>
+                Sputnik 5
+            </a>
         </div>
     );
 }

@@ -5,6 +5,7 @@ import Time50 from "./TimeLine50";
 import Time60 from "./TimeLine60";
 import Time70 from "./TimeLine70";
 import Intro from "./Intro";
+import Missions from "./SpaceMissions";
 
 import styled from "styled-components";
 
@@ -19,6 +20,9 @@ const App = () => {
       <Router>
         <StyledMainDiv>
           <Switch>
+              <Route path="/missions">
+                  <Missions/>
+              </Route>
               <Route path="/timeline50">
                   <Time50/>
               </Route>

@@ -12,24 +12,16 @@ function Time70() {
     return (
         <div className="page">
             <a href={"#1970"} className="year">1970</a>
-            <label>   </label>
             <a href={"#1971"} className="year">1971</a>
-            <label>   </label>
             <a href={"#1972"} className="year">1972</a>
-            <label>   </label>
             <a href={"#1973"} className="year">1973</a>
-            <label>   </label>
             <a href={"#1974"} className="year">1974</a>
-            <label>   </label>
             <a href={"#1975"} className="year">1975</a>
-            <label>   </label>
             <a href={"#1976"} className="year">1976</a>
-            <label>   </label>
             <a href={"#1977"} className="year">1977</a>
-            <label>   </label>
             <a href={"#1978"} className="year">1978</a>
-            <label>   </label>
             <a href={"#1979"} className="year">1979</a>
+            <p/>
             <header className="App-header" id={"1970"}>1970</header>
             <p>
                 Sputnik was launched
