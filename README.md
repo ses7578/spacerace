@@ -1,6 +1,6 @@
 # User Instructions
 
-Welcome to Space Race, a timeline of the space race. To begin using SpaceRace, simply navigate to https://ses7578.github.io/spacerace/.
+Welcome to Space Race, a timeline of the space race. To begin using SpaceRace, simply navigate to https://ses7578.spacerace.com/.
 # Grader Instructions
 Node and NPM are required to run this application.
 
