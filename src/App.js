@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Time50 from "./TimeLine50";
 import Time60 from "./TimeLine60";
-import Time70 from "./TimeLine70";
 import Intro from "./Intro";
 import Missions from "./SpaceMissions";
 
@@ -28,9 +27,6 @@ const App = () => {
               </Route>
               <Route path="/timeline60">
                   <Time60/>
-              </Route>
-              <Route path="/timeline70">
-                  <Time70/>
               </Route>
               <Route path="/intro">
                   <Intro/>

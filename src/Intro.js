@@ -1,43 +1,27 @@
 import './App.css';
-import {useHistory} from "react-router";
 import React from "react";
 
 function Intro() {
 
-    let history = useHistory();
-
-    function click50() {
-        history.push("/timeline50");
-    }
-
-    function click60() {
-        history.push("/timeline60");
-    }
-    function click70() {
-        history.push("/timeline70");
-    }
-    function clickMissions() {
-        history.push("/missions");
-    }
-
     return (
         <div className="page">
+            <p/>
             <p className="Information">
-                The Space Race occurred from the 1950s to the 1970s
+                The Space Race occurred from the 1950s to the 1970s.
                 The main involved parties was the USSR and the US.
-
+            </p>
+            <p className="Information">
                 While it is hard to determine a hard start and end date, I have decided to go with 1957 for a start
                 as that is when the USSR launched Sputnik into space which is what started the process of both America
-                and the USSR racing to get into space.
+                and the USSR racing to get into space.  I have also decided to go with 1970 as an end date as this was
+                the last major event that occurred in the race to the moon.
             </p>
             <p/>
-            <button onClick = {click50}>1950s information</button>
+            <a href={"/timeline50"} className={"year"}>1957-1959</a>
             <p/>
-            <button onClick = {click60}>1960s information</button>
+            <a href={"/timeline60"} className={"year"}>1960-1970</a>
             <p/>
-            <button onClick = {click70}>1970s information</button>
-            <p/>
-            <button onClick = {clickMissions}>Space Missions</button>
+            <a href={"/missions"} className={"year"}>Space Missions</a>
         </div>
     );
 }

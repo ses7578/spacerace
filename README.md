@@ -2,10 +2,13 @@
 
 Welcome to Space Race, a timeline of the space race. To begin using SpaceRace, simply navigate to https://ses7578.github.io/spacerace/.
 # Grader Instructions
+Node and NPM are required to run this application.
+
+Install from here: https://nodejs.org/en/download/
 
 1. Clone this repo:
 
-   `git clone https://github.com/MatthewGalan/hojo.git`
+   `git clone https://github.com/ses7578/spacerace.git`
 
 1. Install dependencies:
 

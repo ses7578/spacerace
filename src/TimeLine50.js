@@ -1,17 +1,10 @@
 import './App.css';
-import {useHistory} from "react-router";
 import React from "react";
 import sputnik from "./imgs/sputnik.jpg"
 import nasa from "./imgs/nasa.png"
 import luna1 from "./imgs/luna1.jpg"
 
 function Time50() {
-
-    let history = useHistory();
-
-    function clickBack() {
-        history.push("/intro");
-    }
 
     return (
         <div className="page">
@@ -80,7 +73,7 @@ function Time50() {
             <p className={"Information"}>
                 NASA became operational on October 1st 1958<sup><a href={"#3"} className={"reference"}>3</a></sup> and
                 it became part of the National Advisory Committee for Aeronautics, taking over the employees and the budget.
-                The first high profile cases that it took over were Project Mercury and Project Gemini which occurred in 1962
+                The first high profile cases that it took over were Project Mercury and Project Gemini which occurred in 1961
                 and 1965 respectively.
             </p>
 
@@ -98,8 +91,9 @@ function Time50() {
             <p className={"Information"}>
                 <a href={"/missions#Luna"} className={"mission"}>Luna 2</a> became the first spacecraft to land on the moon
             </p>
-            <button onClick = {clickBack}>Go Back</button>
+            <a href={"/intro"} className={"year"}>Go Back</a>
             <p id={"references"}>
+                <p className={"Information"}>References</p>
                 <a href={"https://www.history.com/topics/cold-war/space-race"} className={"link"} id={"1"} target={"blank"}>Cold War</a>
                 <a href={"https://www.nasa.gov/exploration/whyweexplore/Why_We_29.html"} id={"2"} className={"link"} target={"blank"}>NASA</a>
                 <a href={"https://history.nasa.gov/factsheet.htm"} id={"3"} className={"link"} target={"blank"}>NASA Creation</a>
