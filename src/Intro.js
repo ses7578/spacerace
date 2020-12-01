@@ -21,7 +21,7 @@ function Intro() {
             <p/>
             <a href={"/timeline60"} className={"year"}>1960-1970</a>
             <p/>
-            <a href={"/missions"} className={"year"}>Space Missions</a>
+            <a href={"/missions"} className={"year"}>Space Missions from USSR and US</a>
         </div>
     );
 }

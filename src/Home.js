@@ -9,7 +9,7 @@ function Home() {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p/>
-                <a href={"/spacerace/intro"} className={"year"}>Click to Learn About the Space Race</a>
+                <a href={"/intro"} className={"year"}>Click to Learn About the Space Race</a>
             </header>
         </div>
     );

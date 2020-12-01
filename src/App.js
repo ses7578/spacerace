@@ -28,7 +28,7 @@ const App = () => {
               <Route path="/timeline60">
                   <Time60/>
               </Route>
-              <Route path="/spacerace/intro">
+              <Route path="/intro">
                   <Intro/>
               </Route>
             <Route path="/">
