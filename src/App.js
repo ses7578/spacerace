@@ -14,29 +14,28 @@ const StyledMainDiv = styled.div`
 `;
 
 const App = () => {
-
   return (
-      <Router>
-        <StyledMainDiv>
-          <Switch>
-              <Route path="/missions">
-                  <Missions/>
-              </Route>
-              <Route path="/timeline50">
-                  <Time50/>
-              </Route>
-              <Route path="/timeline60">
-                  <Time60/>
-              </Route>
-              <Route path="/intro">
-                  <Intro/>
-              </Route>
-            <Route path="/">
-              <Home/>
-            </Route>
-          </Switch>
-        </StyledMainDiv>
-      </Router>
+    <Router>
+      <StyledMainDiv>
+        <Switch>
+          <Route path="/spacerace/missions">
+            <Missions />
+          </Route>
+          <Route path="/spacerace/timeline50">
+            <Time50 />
+          </Route>
+          <Route path="/spacerace/timeline60">
+            <Time60 />
+          </Route>
+          <Route path="/spacerace/intro">
+            <Intro />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </StyledMainDiv>
+    </Router>
   );
 };
 
