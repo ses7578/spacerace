@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7fb207d4f41cb40e39f11d04c4be5251",
+    "revision": "2f6e542e1a6d16727e05476a51481e97",
     "url": "/spacerace/index.html"
   },
   {
-    "revision": "4079ece40c6ee60c5629",
+    "revision": "1303eeddec7963ba4fe5",
     "url": "/spacerace/static/css/main.68a2aa61.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spacerace/static/js/2.22dc3a3a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4079ece40c6ee60c5629",
-    "url": "/spacerace/static/js/main.01fb5ea4.chunk.js"
+    "revision": "1303eeddec7963ba4fe5",
+    "url": "/spacerace/static/js/main.d689d858.chunk.js"
   },
   {
     "revision": "6cb156e67726c1ff9dbc",
